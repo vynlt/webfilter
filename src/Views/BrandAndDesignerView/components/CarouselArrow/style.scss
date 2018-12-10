@@ -1,0 +1,65 @@
+.latest-carousel .slick-next:before,
+.latest-carousel .slick-prev:before {
+	font-family: icons;
+	font-size: 30px;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #999;
+}
+
+.latest-carousel .slick-next:before {
+	content: "˃";
+}
+
+.latest-carousel .slick-prev:before {
+	content: "˂";
+}
+
+.latest-carousel .slick-next.slick-disabled,
+.latest-carousel .slick-prev.slick-disabled {
+	cursor: default;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.latest-carousel .slick-next:hover:before,
+.latest-carousel .slick-prev:hover:before {
+	color: #000;
+}
+
+.latest-carousel .slick-next {
+	top: 28%;
+}
+
+.latest-carousel .slick-prev {
+	top: 28%;
+}
+
+.overview-brands .slick-slider .slick-prev {
+	left: -15px;
+}
+
+.overview-brands .slick-slider .slick-next {
+    right: -15px;
+}
+
+@media (max-width: 992px) {
+	.latest-carousel .slick-prev {
+		left: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.latest-carousel .slick-next {
+		right: 0;
+	}
+}
+
+
+.latest-carousel .slick-next, .latest-carousel .slick-prev {
+    z-index: 1;
+    width: 13px;
+    height: 22px;
+}

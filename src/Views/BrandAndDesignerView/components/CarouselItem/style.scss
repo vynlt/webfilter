@@ -1,0 +1,77 @@
+.latest-carousel li {
+    margin: 0 20px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    outline: 0;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+
+.latest-carousel a {
+    line-height: 1.7;
+}
+
+.latest-carousel .slick-slide img {
+    margin: auto;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.latest-carousel .name {
+    padding-top: 20px;
+    display: block;
+    font-size: 18px;
+    font-family: HurmeGeometricSans1-Light;
+    color: #000;
+    margin: 3px 0 2px;
+    transition: color 150ms;
+}
+
+.latest-carousel .name .status {
+    color: #ae0000;
+}
+
+.latest-carousel .name .status:before {
+    display: inline-block;
+    content: '';
+    width: 14px;
+    height: 1px;
+    vertical-align: middle;
+    border-top: 1px solid #000;
+    margin: -1px 8px 0 8px;
+}
+
+.latest-carousel .name:hover {
+    color: #afa99f;
+}
+
+.latest-carousel .slick-slide img:hover {
+    opacity: .8;
+}
+
+.latest-carousel a:focus, .latest-carousel a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+a {
+    transition: color 150ms ease-in-out;
+}

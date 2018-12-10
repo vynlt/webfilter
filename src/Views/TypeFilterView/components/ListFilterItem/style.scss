@@ -1,0 +1,56 @@
+.list-filter-links .form-group {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+
+.checkbox:last-child {
+	margin-right: 0;
+}
+
+.checkbox {
+	display: inline-block;
+	margin-top: 0;
+	margin-right: 20px;
+}
+
+.list-filter-links .checkbox {
+	margin: 0;
+}
+
+.list-filter-links .checkbox a {
+	color: #999;
+	transition: color 0.2s;
+	font-size: 15px;
+}
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+.product-list .list-filter-links .checkbox a {
+    color: #999;
+    transition: color .2s;
+    font-size: 15px;
+}
+
+.list-filter-links .checkbox a:hover, .list-filter-links .checkbox a.active {
+    color: #000;
+}
+
+.checkbox input {
+    visibility: hidden;
+    position: absolute;
+}
+
+.form-group input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+.hidden {
+    display: none!important;
+}

@@ -1,0 +1,59 @@
+.latest-carousel {
+    padding: 0;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.latest-carousel {
+    padding: 50px 0 45px 0;
+}
+
+.overview-brands .slick-slider {
+    margin-bottom: 0;
+    margin-top: 28px;
+}
+
+.overview-brands .latest-carousel {
+    padding: 0;
+}
+
+
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.slick-track:after, .slick-track:before {
+    content: "";
+    display: table;
+}
+

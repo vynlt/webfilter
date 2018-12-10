@@ -1,0 +1,12 @@
+.head-overview {
+	overflow: hidden;
+	display: inherit;
+	img {
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		position: relative;
+		z-index: 1;
+		transition: opacity 1s, -webkit-transform 1s;
+		transition: opacity 1s, transform 1s;
+	}
+}
